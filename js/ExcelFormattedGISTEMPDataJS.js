@@ -2931,8 +2931,8 @@ let avg = function (arr) {
 
 var plottable = [{ color: "blue", key: "winter", values: [] },
 { color: "green", key: "spring", values: [] },
-{ color: "orange", key: "summer", values: [] },
-{ color: "gold", key: "fall", values: [] }];
+{ color: "red", key: "summer", values: [] },
+{ color: "orange", key: "fall", values: [] }];
 
 for (let decade in decades) {
     plottable[0].values.push({ x: decade, y: avg(decades[decade].winter) });
