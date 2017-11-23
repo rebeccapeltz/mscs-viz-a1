@@ -1,0 +1,22 @@
+{
+  "name": "mscs-viz-a1",
+  "version": "1.0.0",
+  "description": "assignment 1 data viz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rebeccapeltz/mscs-viz-a1.git"
+  },
+  "author": "Becky Peltz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rebeccapeltz/mscs-viz-a1/issues"
+  },
+  "homepage": "https://github.com/rebeccapeltz/mscs-viz-a1#readme",
+  "dependencies": {
+    "nvd3": "^1.8.6"
+  }
+}
