@@ -2942,7 +2942,7 @@ for (let decade in decades) {
 }
 
 
-
+// If you don't want decade bundling use this
 // for (let datum of data) {
 //     if (datum.DJF !== "NA") {
 //         plottable[0].values.push({ x: datum.Year, y: datum.DJF })
@@ -2976,7 +2976,7 @@ nv.addGraph(function () {
         .staggerLabels(true)
         ;
     chart.yAxis
-        .axisLabel('Temperature')
+        .axisLabel('Temperature Deviation')
         .tickFormat(function (d) {
             if (d == null) {
                 return 'N/A';
